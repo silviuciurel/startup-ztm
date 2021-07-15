@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Neuton', serif;
+    background: url(domenico-loia-hGV2TfOh0ns-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    font-size: 6rem;
+    color: #DE3718;
+    background: rgba(220, 220, 215, 0.5);
+    box-shadow: 0 3px 10px rgb(255, 255, 255);
+    border-radius: 5rem;
+}
+
+hr{
+  border-color: #F05F44;
+  border-width: 3px;
+  max-width: 70px;
+}
+
+.buffer{
+  height: 7rem;
+}
+
+.btn{
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 300px;
+}
+
+.btn-primary{
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover{
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
